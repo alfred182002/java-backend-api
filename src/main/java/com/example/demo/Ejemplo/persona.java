@@ -5,6 +5,7 @@ public class persona {
 	String nombre;
 	String apellido;
 	String telefono;
+	String correo;
 	public int getId() {
 		return id;
 	}
@@ -28,6 +29,12 @@ public class persona {
 	}
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
+	}
+	public String getCorreo() {
+		return telefono;
+	}
+	public void setCorreo(String Correo) {
+		this.correo = correo;
 	}
 
 }
