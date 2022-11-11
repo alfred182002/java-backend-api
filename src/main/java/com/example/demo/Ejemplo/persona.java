@@ -4,6 +4,7 @@ public class persona {
 	int id;
 	String nombre;
 	String apellido;
+	String grupo;
 	String telefono;
 	String correo;
 	public int getId() {
